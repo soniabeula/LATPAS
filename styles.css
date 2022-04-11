@@ -1,0 +1,386 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    overflow-x: hidden;
+  }
+ 
+  /* NAvbar */
+.navbar{
+    padding: 10px 0 10px 0;
+}
+.nav-item{
+    position: relative;
+    left: 750px;
+}
+.navbar-brand{
+    padding-left: 10%;
+    font-size: 2rem !important;
+}
+/* container */
+.heading{
+    height: 500px;
+    /* background-repeat: no-repeat; */
+    position: relative;
+    /* background: rgba(0, 0, 0, 0) url(https://d6vdma9166ldh.cloudfront.net/assets/images/banners/about-us-banner.jpg) no-repeat scroll center top / cover; */
+    background:rgba(0, 0, 0, 0) url(./images/pic4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 64px;
+    
+}
+.Heading-text{
+    position: relative;
+    top: 40%;
+    left: 8%;
+    font-weight: 300 !important;
+    line-height: 20px;
+    font-size: 20px !important;
+    padding-top:200px ;
+    margin-bottom: 60px !important;
+    color: #fff !important;
+}
+.main-text{
+  font-size: 56px;
+  color: #fff;
+  line-height: 60px;
+  font-weight: 300;
+  font-family: 'Raleway',sans-serif;
+  /* margin-top: 70px; */
+  margin-bottom: 45px;
+}
+
+
+
+.learn{
+  width: 150px;
+  height: 150px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 100px;
+  left: 820px;
+  padding: 3%;
+  border-radius: 2%;
+  animation-name: example;
+  animation-duration: 4s !important;
+}
+.Practice{
+  width: 150px;
+  height: 150px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 200px;
+  left: 1000px;
+  padding: 2%;
+  border-radius: 2%;
+  animation-name: example;
+  animation-delay: 4s;
+  animation-duration: 4s;
+}
+.Grow{
+  width: 150px;
+  height: 150px;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 300px;
+  left: 820px;
+  padding: 3%;
+  border-radius: 2%;
+  animation-name: example;
+  animation-delay: 8s;
+  animation-duration: 4s ;
+}
+/* Features */
+#features {
+    position: relative;
+    text-align: center;
+    padding-left: 4% !important;
+    padding-bottom: 2% !important;
+  }
+  .featurette-heading{
+    color: #39AEA9;
+  }
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+   
+  }
+  
+.icon {
+    color: #495371;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .icon:hover {
+    color: #0E185F;
+  }
+  /* About */
+  .ffeature{
+      background-color: #495371;
+      position: relative;
+  }
+
+  .lfeature{
+      background-color: #495371;
+  }
+  .featurette{
+    position: relative;
+  }
+
+  .icon-panel-grid-2 {
+    background-position: -124px -85px;
+    height: 49px;
+    width: 46px;
+    display: inline-block;
+}
+.icons-new {
+  background-image: url(https://d6vdma9166ldh.cloudfront.net/assets/images/icons/sprite-new.png);
+  background-repeat: no-repeat;
+}
+
+
+
+.item1{
+    width: 160px !important;
+    height: 160px !important; 
+   line-height: 196px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background: #4dd7c8;
+    box-shadow: 0 6px 8px 0 rgb(0 0 0 / 10%);
+    border-radius: 100%;
+     text-align: center;
+     transform: translate(-50%,-50%);
+}
+
+.icon-panel-grid-2 {
+  background-position: -124px -85x;
+  height: 49px;
+  width: 46px;
+  display: inline-block;
+}
+
+.icons-new {
+  background-image: url(https://d6vdma9166ldh.cloudfront.net/assets/images/icons/sprite-new.png);
+  background-repeat: no-repeat;
+}
+  /* aditional */
+
+
+.addi-box{
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif !important;
+text-align: center;
+background-color: white;
+padding-right: 10%;
+background-color: #E1F1DD !important;
+
+}
+
+.border-l{
+  /* border-left: 2px solid rgb(128, 128, 128); */
+    
+    border-left: 1px solid rgba(0,0,0,0.14);
+
+}
+.partners-main {
+  box-shadow: 0px 0px 10px rgba(113, 17, 239, 0.308);
+    border: 1px solid #E9F2FF;
+    border-radius: 4px;
+    position: absolute;
+    left: 10%;
+    margin: 5% 7%;
+    
+}
+  /* cources */
+
+  .cources{
+    padding: 7%;
+    padding-left: 20% !important;
+    position: relative;
+    /* background-color: #E1F1DD */
+    margin-top: 40px;
+   
+  }
+  .cource-list{
+    border: 2px solid #0E185F;
+    border-radius: 7%;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .course-content{
+    padding: 4% !important;
+  }
+  /* Testimonial Section */
+
+
+  #testimonials {
+    background-color: #A8ECE7;
+    align-items: center;
+    
+  }
+  .testimonial-heading {
+    padding:5% 0 0 38% !important ;
+    color: #39AEA9;
+    font-family: 'Raleway',sans-serif; ;
+    
+  }
+  
+  .testimonial-text {
+    /* font-size: 3rem; */
+    line-height: 1.5;
+    font-family: "Montserrat-Bold";
+
+  }
+  .testimonial-image {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 100%;
+    margin: 20px;
+    /* padding-left: 200px !important; */
+    vertical-align: middle !important ;
+    border-style: none;
+    align-items: center !important ;
+  }
+  
+  .carousel-item {
+  padding: 7% 20% !important;
+  position: relative;
+  }
+  .carousel-item.active {
+    display: block;
+}
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  /* press */
+  #press {
+    background-color: #495371;
+    padding: 15%  15%  3% 3% !important;
+
+    
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* call for action */
+
+  #cta{
+      padding: 7%;
+      
+  }
+  .big-heading{
+    padding-left: 40% !important;
+  }
+  .bg-white{
+    padding: 46px 0 50px;
+    /* min-height: 228px; */
+    text-align: center;
+  }
+ .ctcDiv{
+  box-shadow: 0px 0px 10px rgba(17, 39, 239, 0.308);
+  border: 1px solid #E9F2FF;
+  border-radius: 4px;
+  
+   margin-left:7% !important ;
+   margin-top: 3% !important ;
+   width: 200px !important;
+ }
+  .ctaIcon{
+   width: 20px;
+   font-size: xx-large;
+  }
+  
+  
+  
+  .cta-Text{
+    padding-top: 10% !important ;
+  }
+  .featured-on{
+    width:100% !important;
+    height: 160px !important; 
+  background: #4dd7c8;
+  text-align: center;
+  padding: 3%;
+  }
+
+  .feature-img {
+    height: 100px;
+    width: 100px;
+
+  }
+
+  /* footer section */
+
+.social-icon {
+    margin: 20px 10px ;
+    
+  }
+  #footer{
+   padding-left:  5% !important;
+   background-color: #495371;
+   padding-bottom: 50px !important;
+   padding-top: 30px;
+   text-align: center;
+   vertical-align: center;
+  
+  }
+  .item{
+    background-color: #39AEA9;
+    width: 230px !important;
+    height: 100px;
+    position: absolute;
+    top: 310px;
+    left: 650px;
+  }
+
+  .pressed{
+    background-color: #39AEA9;
+  }
+  @keyframes example {
+    from {background-color: antiquewhite;}
+    to {background-color: #39AEA9;}
+  }
+
+
+@media screen and ( max-width:900px){
+  .heading{
+    height: 800px;
+  }
+  .partners-main{
+    position: static;
+  }
+  .addi-box{
+    padding-bottom: 30px;
+  }
+  .learn{
+    width: 100px;
+  height: 100px;
+    top: 580px;
+    left: 50px;
+  }
+  .Practice{
+    width: 100px;
+  height: 100px;
+    top: 580px;
+    left:200px;
+  }
+  .Grow{
+    width: 100px;
+  height: 100px;
+    top: 580px;
+    left: 350px;
+  }
+}
